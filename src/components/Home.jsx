@@ -1,51 +1,81 @@
-import React from 'react';
+import React from "react";
 import Lottie from "../assets/Lottie/home_page_lottie.json";
-import { Player } from '@lottiefiles/react-lottie-player';
+import { Player } from "@lottiefiles/react-lottie-player";
+import { FaFileDownload, FaBars, FaPlay, FaApple } from "react-icons/fa";
+import { BsCartPlus } from "react-icons/bs";
 
 const Home = () => {
   return (
     <main className='w-full'>
-        <div className='flex flex-col justify-center container'>
-            <nav className='w-full p-5 bg-amber-300 text-white items-center'>
-                <div className='flex flex-row justify-between px-4'>
-                    <h1 className='font-semibold text-3xl'>Cartify</h1>
-                    <div className='justify-evenly gap-4'>
-                        <a>Support</a>
-                        <a>Products</a>
-                        <a>Docs</a>
-                    </div>
-                    <h1 className='font-semibold text-2xl'>Get Started</h1>
-                </div>
-            </nav>
-        </div>
-
-        {/* end of nav */}
-
-        <div className='bg-amber-200 text-black px-4 pb-5 w-full h-3/4'>
-            <div className='flex-1 sm:flex flex-column sm:flex-row'>
-                <div className='sm:w-1/2'> 
-                    <h1 className='font-medium text-9xl break-all text-amber-800'>Future of <br></br><span className='text-8xl font-bold sm:text-9xl'>Shopping</span><br></br>Lists...</h1>
-                    <div className='flex flex-row justify-start gap-5 mx-3 pt-10'>
-                        <button className=' border bg-clip-border p-4'>Play Store</button>
-                        <button className=' border bg-clip-border p-4'>Apple Store</button>
-                        <button className=' border bg-clip-border p-4'>Get APK</button>
-                    </div>
-                </div>
-                <div className='sm:w-1/2'>
-                {/* <img src={Lottie} alt='cartify' className="w-fu"/> */}
-                    {/* If You Want To Use Lottie Player */}
-                     <Player
-                        src={Lottie}
-                        className="w-3/4 h-1/2"
-                        loop
-                        autoplay
-                        />                
-                </div>
+      <div className='flex flex-col justify-center container'>
+        <nav className='w-full p-5 bg-amber-100 text-amber-300 items-center'>
+          <div className='flex flex-row justify-between px-4'>
+            <div>
+              <h1 className='text-5xl flex flex-row items-center gap-2 text-amber-900 font-extralight'>
+                <BsCartPlus /> Cartify
+              </h1>
             </div>
+            <div className='sm:flex hidden flex-row justify-between items-center'>
+              <a className='px-3 text-2xl text-amber-900 font-extralight'>
+                Home
+              </a>
+              <a className='px-3 text-2xl text-amber-900 font-extralight'>
+                Docs
+              </a>
+              <a className='px-3 text-2xl text-amber-900 font-extralight'>
+                Contact
+              </a>
+              <button className='font-semibold text-xl text-white bg-amber-800 p-5 px-5 mx-3 font-mono rounded-full'>
+                {" "}
+                Get Started{" "}
+              </button>
+            </div>
+            <div className='sm:hidden flex text-5xl text-amber-900 cursor-pointer'>
+              <FaBars />
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      {/* end of nav */}
+
+      <div className='bg-amber-100 text-black px-4 pb-5 w-full h-3/4'>
+        <div className='flex-1 sm:flex flex-column sm:flex-row'>
+          <div className='sm:w-1/2'>
+            <h1
+              style={{ lineHeight: 1 }}
+              className='text-[97px] sm:text-left text-center sm:text-9xl sm:font-medium px-4 pt-10 break-all text-amber-800'
+            >
+              Future of <br></br>
+              <span className='text-[60px] font-bold sm:text-9xl'>
+                Shopping
+              </span>
+              <br></br>Lists...
+            </h1>
+            <div className='flex flex-row justify-start gap-5 mx-3 pt-10'>
+              <button className=' border border-black hover:bg-amber-900 hover:text-white text-amber-900 bg-clip-border p-4 flex flex-row items-center gap-2'>
+                <FaPlay size={20} />
+                Google Play Store
+              </button>
+              <button className=' border border-black hover:bg-amber-900 hover:text-white text-amber-900 bg-clip-border p-4 flex flex-row items-center gap-2'>
+                <FaApple size={20} />
+                Apple Store
+              </button>
+              <button className=' border border-black hover:bg-amber-900 hover:text-white text-amber-900 bg-clip-border p-4 flex flex-row items-center gap-2'>
+                <FaFileDownload size={20} />
+                Get APK
+              </button>
+            </div>
+          </div>
+          <div className='sm:w-1/2'>
+            {/* <img src={Lottie} alt='cartify' className="w-fu"/> */}
+            {/* If You Want To Use Lottie Player */}
+            <Player src={Lottie} className='w-3/4 h-1/2' loop autoplay />
+          </div>
         </div>
-
+      </div>
     </main>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
