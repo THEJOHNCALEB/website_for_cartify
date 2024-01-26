@@ -9,7 +9,7 @@ const Home = () => {
     <main className='w-full'>
       <div className='flex flex-col justify-center container'>
         <nav className='w-full p-5 bg-amber-100 text-amber-300 items-center'>
-          <div className='flex flex-row justify-between px-4'>
+          <div className='flex flex-row justify-between sm:px- px-0'>
             <div>
               <h1 className='text-5xl flex flex-row items-center gap-2 text-amber-900 font-extralight'>
                 <BsCartPlus /> Cartify
@@ -30,9 +30,9 @@ const Home = () => {
                 Get Started{" "}
               </button>
             </div>
-            <div className='sm:hidden flex text-5xl text-amber-900 cursor-pointer'>
+            <button className='sm:hidden flex text-5xl text-amber-900 cursor-pointer'>
               <FaBars />
-            </div>
+            </button>
           </div>
         </nav>
       </div>
@@ -44,7 +44,7 @@ const Home = () => {
           <div className='sm:w-1/2'>
             <h1
               style={{ lineHeight: 1 }}
-              className='text-[97px] sm:text-left text-center sm:text-9xl sm:font-medium px-4 pt-10 break-all text-amber-800'
+              className='text-[87px] sm:text-left text-center sm:text-9xl sm:font-medium px-4 pt-10 break-all text-amber-800'
             >
               Future of <br></br>
               <span className='text-[60px] font-bold sm:text-9xl'>
@@ -52,16 +52,16 @@ const Home = () => {
               </span>
               <br></br>Lists...
             </h1>
-            <div className='flex flex-row justify-start gap-5 mx-3 pt-10'>
-              <button className=' border border-black hover:bg-amber-900 hover:text-white text-amber-900 bg-clip-border p-4 flex flex-row items-center gap-2'>
+            <div className='flex flex-col sm:flex-row justify-start gap-5 mx-3 pt-10'>
+              <button className='text-center border border-black hover:bg-amber-900 hover:text-white text-amber-900 bg-clip-border p-5 flex flex-row items-center gap-2 justify-center'>
                 <FaPlay size={20} />
                 Google Play Store
               </button>
-              <button className=' border border-black hover:bg-amber-900 hover:text-white text-amber-900 bg-clip-border p-4 flex flex-row items-center gap-2'>
+              <button className='text-center border border-black hover:bg-amber-900 hover:text-white text-amber-900 bg-clip-border p-5 flex flex-row items-center justify-center gap-2'>
                 <FaApple size={20} />
                 Apple Store
               </button>
-              <button className=' border border-black hover:bg-amber-900 hover:text-white text-amber-900 bg-clip-border p-4 flex flex-row items-center gap-2'>
+              <button className='text-center border border-black hover:bg-amber-900 hover:text-white text-amber-900 bg-clip-border p-5 flex flex-row items-center gap-2 justify-center'>
                 <FaFileDownload size={20} />
                 Get APK
               </button>

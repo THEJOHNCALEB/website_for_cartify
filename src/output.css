@@ -724,6 +724,11 @@ video {
   padding-right: 1.25rem;
 }
 
+.px-0 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 .pb-5 {
   padding-bottom: 1.25rem;
 }
@@ -818,6 +823,10 @@ video {
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
+}
+
+.text-\[87px\] {
+  font-size: 87px;
 }
 
 .font-bold {
