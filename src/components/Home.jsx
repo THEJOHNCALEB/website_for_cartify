@@ -25,7 +25,7 @@ const Home = () => {
               <a className='px-3 text-2xl text-amber-900 font-extralight'>
                 Contact
               </a>
-              <button className='font-semibold text-xl text-white bg-amber-800 p-5 px-5 mx-3 font-mono rounded-full'>
+              <button className='font-extralight text-xl text-white bg-amber-800 p-5 px-5 mx-3 font-mono rounded-full'>
                 {" "}
                 Get Started{" "}
               </button>
@@ -44,7 +44,7 @@ const Home = () => {
           <div className='sm:w-1/2'>
             <h1
               style={{ lineHeight: 1 }}
-              className='text-[87px] sm:text-left text-center sm:text-9xl sm:font-medium px-4 pt-10 break-all text-amber-800'
+              className='text-[80px] text-left sm:text-9xl sm:font-medium px-4 pt-10 break-all text-amber-800'
             >
               Future of <br></br>
               <span className='text-[60px] font-bold sm:text-9xl'>
