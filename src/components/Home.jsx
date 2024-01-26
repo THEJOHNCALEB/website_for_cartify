@@ -11,7 +11,7 @@ const Home = () => {
         <nav className='w-full p-5 bg-amber-100 text-amber-300 items-center'>
           <div className='flex flex-row justify-between sm:px- px-0'>
             <div>
-              <h1 className='text-5xl flex flex-row items-center gap-2 text-amber-900 font-extralight'>
+              <h1 className='sm:text-5xl text-4xl flex flex-row items-center gap-2 text-amber-900 font-extralight'>
                 <BsCartPlus /> Cartify
               </h1>
             </div>
@@ -30,7 +30,7 @@ const Home = () => {
                 Get Started{" "}
               </button>
             </div>
-            <button className='sm:hidden flex text-5xl text-amber-900 cursor-pointer'>
+            <button className='sm:hidden flex text-4xl text-amber-900 cursor-pointer'>
               <FaBars />
             </button>
           </div>
@@ -46,7 +46,7 @@ const Home = () => {
               style={{ lineHeight: 1 }}
               className='text-[80px] text-left sm:text-9xl sm:font-medium px-4 pt-10 break-all text-amber-800'
             >
-              Future of <br></br>
+              Future <br className='sm:hidden flex'></br> of <br></br>
               <span className='text-[60px] font-bold sm:text-9xl'>
                 Shopping
               </span>
