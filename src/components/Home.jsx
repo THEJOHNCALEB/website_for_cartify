@@ -3,6 +3,7 @@ import Footer from "./Footer";
 import MainNavBar from "./MainNavBar";
 import Hero from "./Hero";
 import About from "./About";
+import Faq from "./Faq";
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <MainNavBar />
       <Hero />
       <About />
+      <Faq />
       <Footer />
     </main>
   );

@@ -20,14 +20,20 @@ function MainNavBar() {
               </h1>
             </div>
             <div className='sm:flex hidden flex-row justify-between items-center'>
-              <a className='px-3 text-2xl text-amber-900 font-extralight'>
+              <a
+                href='#HeroPage'
+                className='px-3 text-2xl text-amber-900 font-extralight'
+              >
                 Home
               </a>
               <a className='px-3 text-2xl text-amber-900 font-extralight'>
                 Docs
               </a>
-              <a className='px-3 text-2xl text-amber-900 font-extralight'>
-                Contact
+              <a
+                href='#faq'
+                className='px-3 text-2xl text-amber-900 font-extralight'
+              >
+                FAQs
               </a>
               <button className='font-extralight text-6xl text-amber-800 rounded-full mx-3'>
                 {" "}

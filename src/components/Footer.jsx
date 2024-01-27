@@ -21,10 +21,8 @@ function Footer() {
             <a className='font-light underline' href='#HeroPage'>
               Home
             </a>
-            <a className='font-light underline' href='#HeroPage'>
-              Docs
-            </a>
-            <a className='font-light underline' href='#HeroPage'>
+            <a className='font-light underline'>Docs</a>
+            <a href='#faq' className='font-light underline'>
               Support & FAQs
             </a>
           </div>
@@ -44,7 +42,11 @@ function Footer() {
           <div className='flex sm:flex-row flex-col justify-between m-2 gap-2 items-center'>
             <h2 className='font-light text-2xl mt-2'>
               With ❤ From{" "}
-              <a href='https://thejohncaleb.netlify.app' className='underline'>
+              <a
+                target='_blank'
+                href='https://thejohncaleb.netlify.app'
+                className='underline'
+              >
                 John
               </a>
             </h2>

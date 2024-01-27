@@ -20,15 +20,15 @@ function Hero() {
               <br></br>Lists...
             </h1>
             <div className='flex flex-col sm:flex-row justify-start gap-5 mx-3 pt-10'>
-              <button className='text-center border border-black hover:bg-amber-900 hover:text-white text-amber-900 bg-clip-border p-5 flex flex-row items-center gap-2 justify-center'>
+              <button className='text-center border border-amber-800 hover:bg-amber-900 hover:text-white text-amber-900 bg-clip-border p-5 flex flex-row items-center gap-2 justify-center'>
                 <FaPlay size={20} />
-                Google Play Store
+                Get it on Google Play
               </button>
-              <button className='text-center border border-black hover:bg-amber-900 hover:text-white text-amber-900 bg-clip-border p-5 flex flex-row items-center justify-center gap-2'>
+              <button className='text-center border border-amber-800 hover:bg-amber-900 hover:text-white text-amber-900 bg-clip-border p-5 flex flex-row items-center justify-center gap-2'>
                 <FaApple size={20} />
-                Apple Store
+                Download on the App Store
               </button>
-              <button className='text-center border border-black hover:bg-amber-900 hover:text-white text-amber-900 bg-clip-border p-5 flex flex-row items-center gap-2 justify-center'>
+              <button className='text-center border border-amber-800 hover:bg-amber-900 hover:text-white text-amber-900 bg-clip-border p-5 flex flex-row items-center gap-2 justify-center'>
                 <FaFileDownload size={20} />
                 Get APK
               </button>
