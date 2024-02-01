@@ -26,7 +26,10 @@ function MainNavBar() {
               >
                 Home
               </a>
-              <a className='px-3 text-2xl text-amber-900 font-extralight'>
+              <a
+                href='https://github.com/THEJOHNCALEB/cartify_app'
+                className='px-3 text-2xl text-amber-900 font-extralight'
+              >
                 Docs
               </a>
               <a

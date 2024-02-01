@@ -33,7 +33,7 @@ function Footer() {
             <a href='mailto:'>
               <BsSend className='px-2' />
             </a>
-            <a href=''>
+            <a href='https://github.com/THEJOHNCALEB/cartify_app'>
               <BsGithub className='px-2' />
             </a>
           </div>

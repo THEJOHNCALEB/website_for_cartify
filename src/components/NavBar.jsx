@@ -10,7 +10,7 @@ const NavBar = () => {
           className='text-xl font-bold bg-white text-amber-700  border border-white text-center p-2 mb-2'
         >
           <a
-            href='https://github.com/thejohncaleb'
+            href='https://github.com/THEJOHNCALEB/cartify_app'
             className='flex flex-row items-center justify-center'
           >
             <FaGithub size={35} /> <span>&nbsp; Star on GitHub</span>
