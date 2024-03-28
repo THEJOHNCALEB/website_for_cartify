@@ -7,7 +7,7 @@ import Faq from "./Faq";
 
 const Home = () => {
   return (
-    <main className='w-full'>
+    <main className='w-full scroll-smooth'>
       <MainNavBar />
       <Hero />
       <About />

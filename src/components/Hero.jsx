@@ -7,19 +7,18 @@ function Hero() {
   return (
     <>
       <div className='bg-amber-100 text-black px-4 pb-5 w-full h-3/4'>
-        <div className='flex-1 sm:flex flex-column sm:flex-row'>
+        <div className='flex-1 sm:flex flex-column items-center sm:flex-row'>
           <div className='sm:w-1/2'>
             <h1
-              style={{ lineHeight: 1 }}
-              className='text-[80px] text-left sm:text-9xl sm:font-medium px-4 pt-10 break-all text-amber-800'
+              style={{ lineHeight: 1, fontFamily: "Poppins" }}
+              className='text-[65px] sm:text-center text-center sm:text-9xl sm:font-light font-light px-4 pt-10 break-all text-amber-800 mb-8'
             >
-              Future <br className='sm:hidden flex'></br> of <br></br>
-              <span className='text-[60px] font-bold sm:text-9xl'>
-                Shopping
-              </span>
+              AI<br className='sm:hidden flex'></br> Powered
+              <br></br>
+              <span className=' sm:text-9xl'>Shopping</span>
               <br></br>Lists...
             </h1>
-            <div className='flex flex-col sm:flex-row justify-start gap-5 mx-3 pt-10'>
+            <div className='flex flex-col sm:flex-row justify-center gap-5 mx-3 pt-10'>
               <button className='text-center border border-amber-800 hover:bg-amber-900 hover:text-white text-amber-900 bg-clip-border p-5 flex flex-row items-center gap-2 justify-center'>
                 <FaPlay size={20} />
                 Get it on Google Play
