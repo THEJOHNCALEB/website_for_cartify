@@ -11,7 +11,7 @@ function Hero() {
           <div className='sm:w-1/2'>
             <h1
               style={{ lineHeight: 1, fontFamily: "Poppins" }}
-              className='text-[65px] sm:text-center text-center sm:text-9xl sm:font-light font-light px-4 pt-10 break-all text-amber-800 mb-8'
+              className='text-[60px] sm:text-center text-center sm:text-9xl sm:font-light font-light px-4 pt-10 break-all text-amber-800 mb-8'
             >
               AI<br className='sm:hidden flex'></br> Powered
               <br></br>
