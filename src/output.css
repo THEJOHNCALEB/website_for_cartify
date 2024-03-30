@@ -783,6 +783,10 @@ video {
   margin-top: 1rem;
 }
 
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -2228,8 +2232,8 @@ video {
   line-height: 1;
 }
 
-.text-\[53px\] {
-  font-size: 53px;
+.text-\[60px\] {
+  font-size: 60px;
 }
 
 .text-lg {
@@ -2242,20 +2246,19 @@ video {
   line-height: 1.75rem;
 }
 
-.text-\[46px\] {
-  font-size: 46px;
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
-.text-\[48px\] {
-  font-size: 48px;
+.text-8xl {
+  font-size: 6rem;
+  line-height: 1;
 }
 
-.text-\[52px\] {
-  font-size: 52px;
-}
-
-.text-\[55px\] {
-  font-size: 55px;
+.text-7xl {
+  font-size: 4.5rem;
+  line-height: 1;
 }
 
 .font-bold {

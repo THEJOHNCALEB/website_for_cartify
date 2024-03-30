@@ -39,7 +39,7 @@ function Footer() {
           </div>
         </div>
         <div className='text-center border-t border-amber-950'>
-          <div className='flex   flex-row  justify-between m-2 gap-2 items-center'>
+          <div className='flex   sm:flex-row flex-col justify-between m-2 gap-4 items-center'>
             <span className='font-light text-xl'>
               &copy; Cartify - {new Date().getFullYear()}
             </span>

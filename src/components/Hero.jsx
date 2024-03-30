@@ -10,10 +10,10 @@ function Hero() {
         <div className='flex-1 sm:flex flex-column items-center sm:flex-row'>
           <div className='sm:w-1/2'>
             <h1
-              style={{ lineHeight: 1.3, fontFamily: "Poppins" }}
-              className='cool-animation text-[55px] sm:text-center text-center sm:text-[100px] sm:font-light font-light px-4 pt-10 break-all text-amber-800 mb-8'
+              style={{ lineHeight: 1.1, fontFamily: "Poppins" }}
+              className='cool-animation text-6xl sm:text-center text-center sm:text-[100px] sm:font-light font-light px-4 pt-10 break-all text-amber-800 mb-5'
             >
-              AI-Powered
+              AI<br></br> Powered
               <br></br>
               <span>Shopping</span>
               <br></br>Lists...
