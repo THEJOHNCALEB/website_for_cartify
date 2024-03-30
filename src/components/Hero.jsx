@@ -10,12 +10,12 @@ function Hero() {
         <div className='flex-1 sm:flex flex-column items-center sm:flex-row'>
           <div className='sm:w-1/2'>
             <h1
-              style={{ lineHeight: 1, fontFamily: "Poppins" }}
-              className='text-[60px] sm:text-center text-center sm:text-9xl sm:font-light font-light px-4 pt-10 break-all text-amber-800 mb-8'
+              style={{ lineHeight: 1.3, fontFamily: "Poppins" }}
+              className='cool-animation text-[55px] sm:text-center text-center sm:text-[100px] sm:font-light font-light px-4 pt-10 break-all text-amber-800 mb-8'
             >
-              AI<br className='sm:hidden flex'></br> Powered
+              AI-Powered
               <br></br>
-              <span className=' sm:text-9xl'>Shopping</span>
+              <span>Shopping</span>
               <br></br>Lists...
             </h1>
             <div className='flex flex-col sm:flex-row justify-center gap-5 mx-3 pt-10'>
@@ -36,7 +36,7 @@ function Hero() {
           <div className='sm:w-1/2'>
             {/* <img src={Lottie} alt='cartify' className="w-fu"/> */}
             {/* If You Want To Use Lottie Player */}
-            <Player src={Lottie} className='w-3/4 h-1/2' loop autoplay />
+            <Player src={Lottie} className='w-3/4 h-1/2 ' loop autoplay />
           </div>
         </div>
       </div>

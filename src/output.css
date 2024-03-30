@@ -2228,12 +2228,8 @@ video {
   line-height: 1;
 }
 
-.text-\[50px\] {
-  font-size: 50px;
-}
-
-.text-\[80px\] {
-  font-size: 80px;
+.text-\[53px\] {
+  font-size: 53px;
 }
 
 .text-lg {
@@ -2246,24 +2242,20 @@ video {
   line-height: 1.75rem;
 }
 
-.text-\[76px\] {
-  font-size: 76px;
+.text-\[46px\] {
+  font-size: 46px;
 }
 
-.text-\[70px\] {
-  font-size: 70px;
+.text-\[48px\] {
+  font-size: 48px;
 }
 
-.text-\[60px\] {
-  font-size: 60px;
+.text-\[52px\] {
+  font-size: 52px;
 }
 
-.text-\[68px\] {
-  font-size: 68px;
-}
-
-.text-\[65px\] {
-  font-size: 65px;
+.text-\[55px\] {
+  font-size: 55px;
 }
 
 .font-bold {
@@ -2284,10 +2276,6 @@ video {
 
 .font-semibold {
   font-weight: 600;
-}
-
-.font-thin {
-  font-weight: 100;
 }
 
 .uppercase {
@@ -2765,6 +2753,24 @@ body{
   font-family: "Poppins";
 }
 
+.cool-animation {
+  animation: coolAnimation 1s ease-in-out;
+}
+
+@keyframes coolAnimation {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -2898,9 +2904,8 @@ body{
     line-height: 1;
   }
 
-  .sm\:text-9xl {
-    font-size: 8rem;
-    line-height: 1;
+  .sm\:text-\[100px\] {
+    font-size: 100px;
   }
 
   .sm\:font-light {

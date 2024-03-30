@@ -10,7 +10,7 @@ function About() {
             <div className='sm:w-1/2 w-full'>
               <img
                 src={cartifyImg}
-                className='w-full h-full'
+                className='w-full h-full '
                 alt='Cartify Mobile App'
               />
             </div>

@@ -11,13 +11,13 @@ function Footer() {
               <h1 className='flex flex-row '>
                 <BsCartPlus /> Cartify
               </h1>
-              <span className='text-xl font-thin'>
+              <span className='text-xl font-extralight'>
                 Future of Shopping Lists...
               </span>
             </div>
           </div>
           <div className='flex flex-col text-xl gap-3 mb-2'>
-            <h2 className='font-bold text-2xl'>Suggested Links:</h2>
+            <h2 className='font-bold text-2xl'>Suggested Links</h2>
             <a className='font-light underline' href='#HeroPage'>
               Home
             </a>
@@ -26,11 +26,11 @@ function Footer() {
               Support & FAQs
             </a>
           </div>
-          <div className='text-6xl flex flex-row justify-between'>
-            <a href='http://'>
+          <div className='text-6xl flex flex-row mt-2 justify-between'>
+            <a href='https://x.com/thejohncaleb'>
               <BsTwitterX className='px-2' />
             </a>
-            <a href='mailto:'>
+            <a href='mailto:calebjohn3112@gmail.com'>
               <BsSend className='px-2' />
             </a>
             <a href='https://github.com/THEJOHNCALEB/cartify_app'>
@@ -39,9 +39,12 @@ function Footer() {
           </div>
         </div>
         <div className='text-center border-t border-amber-950'>
-          <div className='flex sm:flex-row flex-col justify-between m-2 gap-2 items-center'>
-            <h2 className='font-light text-2xl mt-2'>
-              With ❤ From{" "}
+          <div className='flex   flex-row  justify-between m-2 gap-2 items-center'>
+            <span className='font-light text-xl'>
+              &copy; Cartify - {new Date().getFullYear()}
+            </span>
+            <h2 className='font-light text-xl mt-2'>
+              Made with ❤ From{" "}
               <a
                 target='_blank'
                 href='https://thejohncaleb.netlify.app'
@@ -50,9 +53,6 @@ function Footer() {
                 John
               </a>
             </h2>
-            <span className='font-light text-2xl'>
-              &copy;Cartify - {new Date().getFullYear()}
-            </span>
           </div>
         </div>
       </div>
